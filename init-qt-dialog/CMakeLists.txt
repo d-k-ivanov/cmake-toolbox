@@ -48,9 +48,10 @@ cmake_list_all_init_variables()
 # Thirdparty
 add_subdirectory(${CMAKE_SOURCE_DIR}/thirdparty)
 
-add_subdirectory(${CMAKE_SOURCE_DIR}/src)
-
 # Application
+init_os_bundle()
+init_qt()
+#add_subdirectory(${CMAKE_SOURCE_DIR}/src)
 set(SOURCE_FILES
     src/main.cpp
     src/main_dialog.cpp

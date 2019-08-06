@@ -53,6 +53,3 @@ macro(init_qt)
     set(CMAKE_AUTORCC ON)
     set(CMAKE_AUTOUIC ON)
 endmacro()
-
-init_os_bundle()
-init_qt()
