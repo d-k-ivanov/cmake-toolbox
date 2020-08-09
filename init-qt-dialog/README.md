@@ -1,1 +1,0 @@
-# Init QT Dialog Application
